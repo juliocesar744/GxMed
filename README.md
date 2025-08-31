@@ -33,11 +33,11 @@ Antes de rodar o projeto localmente, certifique-se de ter os seguintes softwares
 }
 
 
-git clone https://github.com/juliocesar744/GxMed.git
-cd GxMed/backend
-dotnet restore
-dotnet run
+- git clone https://github.com/juliocesar744/GxMed.git
+- cd GxMed/backend
+- dotnet restore
+- dotnet run
 
-cd GxMed/frontend
-npm install
-npm run dev
+- cd GxMed/frontend
+- npm install
+- npm run dev
