@@ -22,7 +22,7 @@ export default function LeftMenu() {
     return (
         <div className="h-screen flex flex-col justify-between items-start text-[#F9FBFF] box-border top-0 left-0 overflow-x-hidden overflow-y-hidden mt-10 ml-5">
             <div className="flex flex-col">
-            <img src='../src/assets/gxmed-logo-colorido.svg' alt="" className="mb-5" />
+            <img src="../public/assets/gxmed-logo-colorido.svg"  alt="" className="mb-5" />
             <span style={{fontSize: "0.5625rem",  fontWeight: "800", color: "#A3A3A3", marginBottom: '0.5rem', marginLeft: "0.8rem", letterSpacing: "0.2rem"}}>MENU</span>
             <div style={{gap: "0.3rem", display: "flex", flexDirection: "column", height: "2rem"}}>
                 {itemsTop.map((item, index) => (

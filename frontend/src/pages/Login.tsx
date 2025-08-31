@@ -42,7 +42,7 @@ export default function Login() {
                 <div className="flex flex-col justify-start items-start h-[100%] w-full sm:px-10 px-0 sm:w-[50%]">
                     <div className="mt-10">
                         <img 
-                            src="../src/assets/gxmed-logo-colorido.svg" 
+                            src="../public/assets/gxmed-logo-colorido.svg" 
                             alt="GxMed Logo"
                             height={100}
                             width={200}
