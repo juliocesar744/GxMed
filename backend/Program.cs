@@ -27,6 +27,9 @@ builder.Services.AddControllers();
 
 var app = builder.Build();
 
+var port = Environment.GetEnvironmentVariable("PORT") ?? "5264";
+app.Urls.Add($"http://0.0.0.0:{port}");
+
 app.UseCors("ReactApp");
 app.MapControllers();
 
