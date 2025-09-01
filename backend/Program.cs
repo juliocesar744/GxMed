@@ -5,12 +5,14 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("ReactApp", policy =>
-    {
-        policy.WithOrigins("http://localhost:5173")
-              .AllowAnyHeader()
-              .AllowAnyMethod();
-    });
+    options.AddPolicy("AllowFrontend",
+        policy =>
+        {
+            policy.WithOrigins("https://gx-med.vercel.app")
+                    .AllowAnyOrigin()
+                    .AllowAnyHeader()
+                    .AllowAnyMethod();
+        });
 });
 
 builder.Services.AddOpenApi();
@@ -30,7 +32,7 @@ var app = builder.Build();
 var port = Environment.GetEnvironmentVariable("PORT") ?? "5264";
 app.Urls.Add($"http://0.0.0.0:{port}");
 
-app.UseCors("ReactApp");
+app.UseCors("AllowFrontend");
 app.MapControllers();
 
 if (app.Environment.IsDevelopment())
