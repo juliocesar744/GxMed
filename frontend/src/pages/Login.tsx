@@ -10,7 +10,7 @@ export default function Login() {
         const passwordInput = (document.getElementById("password") as HTMLInputElement).value;
 
         try {
-            const res = await fetch("http://localhost:5264/api/users/login", {
+            const res = await fetch("https://gxmed-production.up.railway.app/api/users/login", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",

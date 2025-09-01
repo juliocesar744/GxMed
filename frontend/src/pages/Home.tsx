@@ -11,7 +11,7 @@ export default function Home() {
     useEffect(() => {
         const fetchUsers = async () => {
             try {
-                const res = await fetch("http://localhost:5264/api/users");
+                const res = await fetch("https://gxmed-production.up.railway.app/api/users");
                 const data = await res.json();
                 setUsers(data);
             } catch (err) {
