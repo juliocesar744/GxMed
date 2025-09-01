@@ -131,3 +131,4 @@ C:\Users\camil\OneDrive\Área de Trabalho\GxMed\backend\bin\Debug\net9.0\Swashbu
 C:\Users\camil\OneDrive\Área de Trabalho\GxMed\backend\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\camil\OneDrive\Área de Trabalho\GxMed\backend\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\camil\OneDrive\Área de Trabalho\GxMed\backend\bin\Debug\net9.0\BCrypt.Net-Next.dll
+C:\Users\camil\OneDrive\Área de Trabalho\GxMed\backend\obj\Debug\net9.0\backend.sourcelink.json
